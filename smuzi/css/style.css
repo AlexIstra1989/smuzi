@@ -15,15 +15,13 @@ a :focus, a :active {outline: none;}
 
 nav,footer,header,aside{display: block;}
 
-html,body{
-    height: 100%;
-    width: 100%;
-    font-size: 100%;
+body{
     line-height: 1;
-    font-size: 100%;
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
+    font-family: monospace;
+   
 }
 
 input,button,textarea{font-family: inherit;}
@@ -34,7 +32,80 @@ button::-moz-focus-inner{padding: 0;border: 0;}
 a,a :visited{text-decoration: none;}
 a :hover{text-decoration: none;}
 ul li{list-style: none;}
+a{font-family: inherit; color: inherit; font-size: inherit;}
 img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 
+.header{
+    background-image: url(..//img/header_bg_img.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
 
+.header__top {
+
+    
+    
+    
+} 
+
+.header__conteiner {
+    display: flex;
+}
+.menu{
+    
+}
+.menu__list{
+    font-size: 16px;
+    line-height: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    color: white;
+    display: flex; 
+}
+.menu__list-item{
+    color: white;
+}
+.menu__link{}
+
+.header_logo{
+    
+}
+.logo{}
+.logo__link{}
+.logo__img{}
+
+.header__personal{} 
+.personal{}
+.personal__list{}
+.personal__list-item{}
+.personal__link{}
+.personal__img{}
+
+.header__social{} 
+.social{}
+.social__list{}
+.social__list-item{}
+.social__link{}
+.social__img{}
+
+.header__btn{
+    width: 280px;
+    height: 70px;
+    background-color: #0aa566;
+    border-radius: 35px;
+    font-family: Muli;
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+}
+.btn{}
+.header__btn--green{}
+.header__title{} 
+.title{}
+                   
