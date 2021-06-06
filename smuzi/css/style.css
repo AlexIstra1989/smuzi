@@ -149,18 +149,65 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 }
 
 .smoothies__content{
-    
+    font-size: 25px;
+   
 }
 
 .smoothies__cards{
-    
+       
 }
+
+.smoothies__caption{
+    font-family: Muli;
+    
+    line-height: 40px;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    color: #f2612d;    
+}
+
+.about{
+    background-color: #16816f;
+    display: flex;
+}
+
+.about__box {
+
+}
+
 
 
 .about__img{
     
 }
 
-.about__title{
+.about__content{
+    padding-top: 97px;
+    padding-left: 142px;
+}
 
+.about__title{
+    font-family: Muli;
+    font-size: 55px;
+    line-height: 60px;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    color: #ffffff;  
+
+}
+
+.about__span{
+    color: #cae941;
+}
+
+.about__list{
+
+}
+
+.about__item{
+    font-family: Muli;
+    font-size: 21px;
+    line-height: 22px;
+    font-weight: 800;
+    color: #ffffff;
 }
