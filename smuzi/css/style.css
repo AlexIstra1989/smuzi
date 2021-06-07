@@ -201,7 +201,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 }
 
 .about__list{
-
+    padding-bottom: 48px;
 }
 
 .about__item{
@@ -210,4 +210,174 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
     line-height: 22px;
     font-weight: 800;
     color: #ffffff;
+    padding: 5px;
+    
+}
+
+.about__link{
+    width: 382px;
+    height: 63px;
+    border: 2px solid #f8b231;
+    border-radius: 30px;
+    font-family: Muli;
+    font-size: 21px;
+    line-height: 22px;
+    font-weight: 800;
+    color: #ffffff;        
+}
+
+.products{
+    display: flex;
+    
+}
+
+.products__card-chocolate {
+    background-color: #652a18;
+}
+
+.products__img{
+    
+}
+
+.products__title {
+    font-family: Muli;
+    font-size: 24px;
+    line-height: 22px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.products__span{
+    font-size: 21px;
+    line-height: 32px;
+    font-weight: 400;
+    font-style: italic;
+    color: #ffffff;
+}
+
+.products__btn {
+    width: 207px;
+    height: 63px;
+    border: 2px solid #ffffff;
+    border-radius: 30px;
+    font-family: Muli;
+    font-size: 21px;
+    line-height: 22px;
+    font-weight: 800;
+    color: #ffffff;
+    background-color: #652a18;
+}
+
+.products__card-vegan{
+    background-color:#188671;
+}
+
+.products__card-lemon{
+    background-color:#f5af3b;
+}
+
+.products__card-turmeric{
+    background-color:#c34819;
+}
+
+.story{
+    background-color: #ffffff;
+    display: flex;
+   
+}
+
+.story__box{
+    padding-left: 308px;
+    padding-top: 260px;
+}
+
+.story__title{
+    font-family: Muli;
+    font-size: 50px;
+    line-height: 40px;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    color: #f7ae3b;
+    text-align: center;
+    padding-bottom: 43px;
+    padding-right: 400px;
+}
+
+.story__text {
+    font-family: Muli;
+    font-size: 18px;
+    line-height: 35px;
+    font-weight: 400;
+    color: #1e1e1e;
+    text-align: center;
+    padding-bottom: 53px;
+    padding-right: 150px;
+}
+
+.story__btn{
+    width: 304px;
+    height: 63px;
+    background-color: #0aa566;
+    border-radius: 30px;
+    font-family: Muli;
+    font-size: 21px;
+    line-height: 22px;
+    font-weight: 800;
+    color: #ffffff;
+    
+}
+
+.story__content{
+    padding-top: 120px;
+}
+
+.testimonials{
+    background-color:#662f1a;
+}
+
+.testimonials__title{
+    font-family: Muli;
+    font-size: 50px;
+    line-height: 40px;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    color: #f7ae3b;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.testimonials__title-span{
+    color: #f2612d;
+}
+
+.testimonials__inner{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.testimonials__box{
+    text-align: center;
+    padding-top: 130px;
+}
+
+.testimonials__citation{
+    font-family: Muli;
+    font-size: 18px;
+    line-height: 35px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.testimonials__user{
+    line-height: 45px;
+    font-weight: 600;
+    font-style: italic;
+    color: #f7ae3b;
+}
+
+.testimonials__img{
+    width: 220px;
+    height: 218px;
+    padding-top: 115px;
 }
