@@ -3,6 +3,7 @@
     margin: 0;
     border: 0;
     border: 1px solid red;
+    font-family: 'Muli';
 }
 
 *,*:before,*:after{
@@ -36,6 +37,15 @@ ul li{list-style: none;}
 a{font-family: inherit; color: inherit; font-size: inherit;}
 img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
+
+@font-face {
+    font-family: 'Muli';
+        
+        src:    url('https://nomail.com.ua/files/eot/fe82d4bebb545cd0d8c9683e258e961c.eot?#iefix') format('embedded-opentype'),
+                url('https://nomail.com.ua/files/woff/fe82d4bebb545cd0d8c9683e258e961c.woff') format('woff'),
+                url('https://nomail.com.ua/files/woff2/fe82d4bebb545cd0d8c9683e258e961c.woff2') format('woff2');
+    }
+
 
 .header{
     background-image: url(..//img/header_bg_img.png);
@@ -128,16 +138,12 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
     height: 70px;
     background-color: #0aa566;
     border-radius: 35px;
-    font-family: Muli;
+    font-family: 'Muli';
     font-size: 24px;
     line-height: 40px;
     font-weight: 800;
     letter-spacing: -0.02em;
     color: #ffffff;
-}
-
-.header__btn::after{
-    color:blue;
 }
 
 .btn{}
@@ -178,12 +184,9 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 }
 
 .smoothies__content{
-    font-size: 25px;
-   
-}
-
-.smoothies__cards{
-       
+    display: flex;
+    justify-content: center;
+    padding-top: 61px;
 }
 
 .smoothies__caption{
@@ -198,10 +201,11 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 .about{
     background-color: #16816f;
     display: flex;
+    margin-top: 107px;
 }
 
 .about__box {
-
+    padding-left: 143px;
 }
 
 
@@ -212,7 +216,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 
 .about__content{
     padding-top: 97px;
-    padding-left: 142px;
+    padding-left: 176px;
 }
 
 .about__title{
@@ -231,12 +235,14 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 
 .about__list{
     padding-bottom: 48px;
+    padding-top: 47px;
+    
 }
 
 .about__item{
     font-family: Muli;
     font-size: 21px;
-    line-height: 22px;
+    line-height: 24px;
     font-weight: 800;
     color: #ffffff;
     padding: 5px;
@@ -244,8 +250,8 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 }
 
 .about__link{
-    width: 382px;
-    height: 63px;
+    width: 360px;
+    height: 80px;
     border: 2px solid #f8b231;
     border-radius: 30px;
     font-family: Muli;
@@ -257,7 +263,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 
 .products{
     display: flex;
-    align-items: stretch;
+    background-size: cover;
 
     
 }
@@ -314,12 +320,11 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 .story{
     background-color: #ffffff;
     display: flex;
-   
+   justify-content: center;
 }
 
 .story__box{
-    padding-left: 308px;
-    padding-top: 260px;
+   
 }
 
 .story__title{
@@ -330,8 +335,8 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
     letter-spacing: -0.02em;
     color: #f7ae3b;
     text-align: center;
-    padding-bottom: 43px;
-    padding-right: 400px;
+    padding-top: 260px;
+   
 }
 
 .story__text {
@@ -341,8 +346,8 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
     font-weight: 400;
     color: #1e1e1e;
     text-align: center;
-    padding-bottom: 53px;
-    padding-right: 150px;
+    padding-top: 43px;
+    
 }
 
 .story__btn{
@@ -355,12 +360,18 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
     line-height: 22px;
     font-weight: 800;
     color: #ffffff;
-    
+    margin-top: 58px;
 }
 
 .story__content{
-    padding-top: 120px;
+     
 }
+
+.story__img{
+    padding-left: 200px;
+}
+
+
 
 .testimonials{
     background-color:#662f1a;
@@ -470,8 +481,12 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
     font-style: italic;
 }
 
+.instagram{
+  
+}
+
 .instagram__title{
-    font-family: Muli;
+    font-family: "Muli";
     font-size: 24px;
     line-height: 40px;
     font-weight: 800;
@@ -479,4 +494,78 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
     color: #0aa566;   
     text-align: center;
     padding-top: 150px;
+}
+
+.instagram__box{
+    display: flex;
+    width: auto;  
+    padding-top: 45px;
+    
+   
+}
+
+.instagram__img{
+   
+}
+
+.footer {
+    background-color:#f7ab3a;
+    
+}
+
+.footer__box{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.footer__img{
+    padding-top: 120px;
+    padding-left: 30px;
+}
+
+.information__title{
+    font-family: Muli;
+    font-size: 26px;
+    line-height: 40px;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+    padding-top: 50px;
+}
+
+.information__list{
+    font-family: Muli;
+    font-size: 18px;
+    line-height: 35px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: #6d450c;
+    padding-top: 43px;
+}
+
+.payment__title{
+    font-family: Muli;
+    font-size: 26px;
+    line-height: 40px;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+}
+
+.payment__list{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+.footer__copyright{
+    background-color:#6c291d;
 }
