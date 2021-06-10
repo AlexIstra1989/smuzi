@@ -1,9 +1,9 @@
 * {
     padding: 0;
     margin: 0;
-    border: 0;
     border: 1px solid red;
     font-family: 'Muli';
+    
 }
 
 *,*:before,*:after{
@@ -89,9 +89,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 .header_logo{
     
 }
-.logo{
-    
-}
+
 .logo__link{
     
 }
@@ -106,18 +104,17 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 }
 
 .header__personal{} 
-.personal{}
+
 .personal__list{
     display: flex;
 }
 .personal__list-item{
     padding: 5px 10px;
 }
-.personal__link{}
-.personal__img{}
+
 
 .header__social{} 
-.social{}
+
 .social__list{
     display: flex;
 }
@@ -146,8 +143,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
     color: #ffffff;
 }
 
-.btn{}
-.header__btn--green{}
+
 .header__title{
     font-size: 45px;
     line-height: 40px;
@@ -156,8 +152,6 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
     letter-spacing: 0.02em;
     color: white;
 } 
-.title{}
-
 
 .smoothies{
     padding-top: 98px;
@@ -191,7 +185,6 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 
 .smoothies__caption{
     font-family: Muli;
-    
     line-height: 40px;
     font-weight: 800;
     letter-spacing: -0.02em;
@@ -216,7 +209,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 
 .about__content{
     padding-top: 97px;
-    padding-left: 176px;
+    margin-left: 179px;
 }
 
 .about__title{
@@ -234,7 +227,6 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 }
 
 .about__list{
-    padding-bottom: 48px;
     padding-top: 47px;
     
 }
@@ -247,6 +239,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
     color: #ffffff;
     padding: 5px;
     
+    
 }
 
 .about__link{
@@ -258,12 +251,15 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
     font-size: 21px;
     line-height: 22px;
     font-weight: 800;
-    color: #ffffff;        
+    color: #ffffff;
+      
+     
 }
 
 .products{
     display: flex;
     background-size: cover;
+    align-items: center;
 
     
 }
@@ -324,7 +320,9 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 }
 
 .story__box{
-   
+   margin-top: 250px;
+   margin-right: 206px;
+  margin-bottom: 160px;
 }
 
 .story__title{
@@ -335,7 +333,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
     letter-spacing: -0.02em;
     color: #f7ae3b;
     text-align: center;
-    padding-top: 260px;
+    
    
 }
 
@@ -361,6 +359,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
     font-weight: 800;
     color: #ffffff;
     margin-top: 58px;
+    
 }
 
 .story__content{
@@ -368,13 +367,14 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 }
 
 .story__img{
-    padding-left: 200px;
+   
 }
 
 
 
 .testimonials{
     background-color:#662f1a;
+    
 }
 
 .testimonials__title{
@@ -385,7 +385,8 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
     letter-spacing: -0.02em;
     color: #f7ae3b;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 117px;
+    
 }
 
 .testimonials__title-span{
@@ -395,12 +396,15 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 .testimonials__inner{
     display: flex;
     justify-content: center;
+    margin-top: 183px;
+    margin-bottom: 240px;
+    
     
 }
 
 .testimonials__box{
     text-align: center;
-    padding-top: 130px;
+    padding-right: 59px;
 }
 
 .testimonials__citation{
@@ -419,18 +423,18 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 }
 
 .testimonials__img{
-    width: 220px;
-    height: 218px;
-    padding-top: 115px;
+    
+    
 }
 
 .blog{
     display: flex;
+    margin: 99px 405px 200px 360px;
+
 }
 
 .blog__box{
-    padding-top: 99px;
-    padding-left: 360px;
+   
 }
 
 .blog__title{
@@ -440,12 +444,16 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
     font-weight: 800;
     letter-spacing: -0.02em;
     color: #f7ae3b;
-    padding-bottom: 49px;
+    
+}
+
+.blog__img{
+    padding-top: 49px;
 }
 
 .blog__wrap{
-    padding-left: 61px;
-    padding-top: 320px;
+    padding-top: 206px;
+    margin-left: 61px;
     
 }
 
@@ -473,7 +481,8 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
     line-height: 35px;
     font-weight: 400;
     color: #1e1e1e;
-    padding-left: 60px;
+    padding-left: 63px;
+    
 }
 
 .blog__link{
@@ -493,15 +502,13 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
     letter-spacing: -0.02em;
     color: #0aa566;   
     text-align: center;
-    padding-top: 150px;
+    
 }
 
 .instagram__box{
     display: flex;
-    width: auto;  
-    padding-top: 45px;
-    
-   
+    margin-top: 45px;  
+
 }
 
 .instagram__img{
@@ -531,7 +538,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
     font-weight: 800;
     letter-spacing: -0.02em;
     color: #ffffff;
-    padding-top: 50px;
+    margin-top: 80px;
 }
 
 .information__list{
@@ -542,6 +549,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
     letter-spacing: -0.02em;
     color: #6d450c;
     padding-top: 43px;
+    padding-bottom: 108px;
 }
 
 .payment__title{
@@ -551,6 +559,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
     font-weight: 800;
     letter-spacing: -0.02em;
     color: #ffffff;
+    margin-top: 80px;
 }
 
 .payment__list{
@@ -568,4 +577,11 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 
 .footer__copyright{
     background-color:#6c291d;
+    width: 100%;
+    height: 60px;   
 }
+
+.footer__samp{
+    margin-top: 28px;
+}
+
