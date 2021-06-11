@@ -228,6 +228,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 
 .about__list{
     padding-top: 47px;
+    padding-bottom: 48px;
     
 }
 
@@ -260,12 +261,13 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
     display: flex;
     background-size: cover;
     align-items: center;
-
+    
     
 }
 
 .products__card-chocolate {
     background-color: #652a18;
+    width: 25%;
 }
 
 .products__img{
@@ -303,14 +305,17 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 
 .products__card-vegan{
     background-color:#188671;
+    width: 25%;
 }
 
 .products__card-lemon{
     background-color:#f5af3b;
+    width: 25%;
 }
 
 .products__card-turmeric{
     background-color:#c34819;
+    width: 25%;
 }
 
 .story{
@@ -343,7 +348,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
     line-height: 35px;
     font-weight: 400;
     color: #1e1e1e;
-    text-align: center;
+    
     padding-top: 43px;
     
 }
@@ -511,8 +516,12 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 
 }
 
+.instagram__card{
+    width: 25%;
+}
+
 .instagram__img{
-   
+   width: 100%;
 }
 
 .footer {
