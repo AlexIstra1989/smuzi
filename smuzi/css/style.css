@@ -47,7 +47,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 
 
 .header{
-    background-image: url(..//img/header_bg_img.png);
+    background-image: url("..//img/header_bg_img.png");
     width: 100%;
     min-height: 100vh;
     background-size: cover;
@@ -124,7 +124,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
     display: flex;
 }
 .social__list-item{
-    padding: 5px 10px;
+    margin-right: 35px;
 }
 .social__link{
     display: inline-block;
@@ -173,6 +173,9 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 
 .smoothies{
     padding-top: 98px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .smoothies__title {
@@ -204,6 +207,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
     padding-top: 61px;
     flex-wrap: wrap;
     max-width: 1000px;
+    padding-bottom: 120px;
 }
 
 .smoothies__cards {
@@ -214,6 +218,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
     flex-direction: column;
     flex: 1;
     flex-basis: 25%;
+    
 }
 
 .smoothies__caption{
@@ -261,7 +266,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 }
 
 .about__list{
-   
+   margin-top: 45px;
     
 }
 
@@ -278,7 +283,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 
 .about__link{
     width: 360px;
-    height: 80px;
+    height: 55px;
     border: 2px solid #f8b231;
     border-radius: 30px;
     font-family: Muli;
@@ -286,7 +291,10 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
     line-height: 22px;
     font-weight: 800;
     color: #ffffff;
-    
+    display: block;
+    margin-top: 48px;
+    padding-left: 30px;
+    padding-top: 15px;
       
      
 }
@@ -302,10 +310,12 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 .products__card-chocolate {
     background-color: #652a18;
     width: 25%;
+    display: block;
+    text-align: center;
 }
 
 .products__img{
-    
+    padding-top: 129px;
 }
 
 .products__title {
@@ -337,8 +347,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
     font-weight: 800;
     color: #ffffff;
     background-color: #652a18;
-    display: block;
-    align-items: center;
+    margin: 63px 0 78px 0;
 }
 
 .products__span{
@@ -348,28 +357,33 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 .products__card-vegan{
     background-color:#188671;
     width: 25%;
+    display: block;
+    text-align: center;
+    
 }
 
 .products__card-lemon{
     background-color:#f5af3b;
     width: 25%;
+    display: block;
+    text-align: center;
 }
 
 .products__card-turmeric{
     background-color:#c34819;
     width: 25%;
+    display: block;
+    text-align: center;
 }
 
 .story{
     background-color: #ffffff;
     display: flex;
-   justify-content: center;
+    justify-content: center;
 }
 
 .story__box{
-   margin-top: 250px;
-   margin-right: 206px;
-  margin-bottom: 160px;
+   padding-top: 260px;
 }
 
 .story__title{
@@ -379,7 +393,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
     font-weight: 800;
     letter-spacing: -0.02em;
     color: #f7ae3b;
-    text-align: center;
+    
     
    
 }
@@ -390,8 +404,9 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
     line-height: 35px;
     font-weight: 400;
     color: #1e1e1e;
-    
     padding-top: 43px;
+    
+    
     
 }
 
