@@ -113,11 +113,12 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 
 .personal__counter{
     background-color: white;
-    border-radius: 50px;
-    -webkit-border-radius: 50px;
-    -moz-border-radius: 50px;
-    -ms-border-radius: 50px;
-    -o-border-radius: 50px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .social__list{
@@ -246,9 +247,12 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 }
 
 .about__content{
-   margin-top: 97px;
-   margin-bottom: 93px;
-   margin-left: 179px;
+    margin-top: 97px;
+    margin-bottom: 93px;
+    margin-left: 179px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .about__title{
@@ -383,7 +387,10 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 }
 
 .story__box{
-   padding-top: 260px;
+    margin-top: 260px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 115px;
 }
 
 .story__title{
@@ -405,6 +412,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
     font-weight: 400;
     color: #1e1e1e;
     padding-top: 43px;
+    max-width: 530px;
     
     
     
@@ -429,7 +437,9 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 }
 
 .story__content{
-     
+     margin-top: 120px;  
+     margin-bottom: 160px;
+    
 }
 
 .story__img{
@@ -462,8 +472,10 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 .testimonials__inner{
     display: flex;
     justify-content: center;
-    margin-top: 183px;
+    align-items: center;
+    margin-top: 184px;
     margin-bottom: 240px;
+    flex-wrap: wrap-reverse;
     
     
 }
@@ -495,12 +507,15 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 
 .blog{
     display: flex;
-    margin: 99px 405px 200px 360px;
+    justify-content: center;
+    padding: 100px 0;
+    flex-wrap: wrap;
+    
 
 }
 
 .blog__box{
-   
+  
 }
 
 .blog__title{
@@ -518,8 +533,8 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 }
 
 .blog__wrap{
-    padding-top: 206px;
-    margin-left: 61px;
+    margin-top: 200px;
+    margin-left: 60px;
     
 }
 
@@ -547,8 +562,9 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
     line-height: 35px;
     font-weight: 400;
     color: #1e1e1e;
+    max-width: 495px;
     padding-left: 63px;
-    max-width: 560px;
+    
 }
 
 .blog__link{
@@ -637,14 +653,12 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 }
 
 .payment__list{
-    
     display: flex;
-    justify-content: center;
     align-items: center;
-    
-    flex: 1;
-    flex-basis: 25%;
     padding-top: 35px;
+    flex-wrap: wrap;
+    width: 250px;
+    gap: 20px;
 }
 
 .payment__item{
@@ -652,7 +666,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 }
 
 .footer__subscribe{
-    padding-top: 79px;
+    margin-top: 79px;
 }
 
 .subscribe__subtitle{
@@ -666,6 +680,9 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 
 .subscribe__form{
     padding-top: 33px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .subscribe__registr{
@@ -679,11 +696,22 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
     font-weight: 700;
     letter-spacing: -0.02em;
     color: #6d450c;
-    padding: 25px 219px 25px 65px;
+    padding: 0 25px 0 65px;
 }
 
 
-
+.subscribe__btn{
+    font-family: Muli;
+    font-size: 18px;
+    line-height: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: -0.02em;
+    color: #6d450c;
+    margin: 60px 0 0 185px;
+    border: none;
+    background-color: #f9ad3e;
+}
 
 
 
