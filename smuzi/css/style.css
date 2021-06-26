@@ -37,14 +37,6 @@ a{font-family: inherit; color: inherit; font-size: inherit;}
 img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 
-@font-face {
-    font-family: 'Muli';
-        
-        src:    url('https://nomail.com.ua/files/eot/fe82d4bebb545cd0d8c9683e258e961c.eot?#iefix') format('embedded-opentype'),
-                url('https://nomail.com.ua/files/woff/fe82d4bebb545cd0d8c9683e258e961c.woff') format('woff'),
-                url('https://nomail.com.ua/files/woff2/fe82d4bebb545cd0d8c9683e258e961c.woff2') format('woff2');
-    }
-
 
 .header{
     background-image: url("..//img/header_bg_img.png");
@@ -106,7 +98,20 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 
 .personal__list{
     display: flex;
+    position: relative;
 }
+
+.personal__list::after{
+    content: "";
+    width: 47px;
+    height: 2px;
+    background-color: #ffd68f;
+    opacity: 0.5;
+    position: absolute;
+    left: 138px;
+    top: 15px;
+}
+
 .personal__list-item{
     padding: 5px 10px;
 }
@@ -118,7 +123,10 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    position: absolute;
+    left: 114px;
+    top: -5px;
+    border-radius: 50%;
 }
 
 .social__list{
@@ -160,6 +168,12 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
     font-weight: 800;
     letter-spacing: -0.02em;
     color: #ffffff;
+}
+
+.header__btn::after {
+    content: "";
+    background: url("../img/arrow.png");
+    
 }
 
 
