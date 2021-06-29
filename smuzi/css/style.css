@@ -253,8 +253,22 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
     flex-direction: column;
     flex: 1;
     flex-basis: 25%;
+    border-left: 1px solid grey;
+    border-top: 1px solid grey;
     
 }
+
+.smoothies__cards:nth-child(-n+4) {
+    border-top: none;
+}
+
+.smoothies__cards:first-child {
+    border-left: none;
+}
+.smoothies__cards:nth-child(-n+4) {
+    border-top: none;
+}
+
 
 
 .smoothies__caption{
