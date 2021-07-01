@@ -38,16 +38,30 @@ img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 
 @font-face {
-    font-family: "Muli";
-    src: url("../fonts/Muli-Bold.ttf");
-    src: url("../fonts/Muli-BoldItalic.ttf");
-    src: url("../fonts/Muli-ExtraBold.woff");
-    src: url("../fonts/Muli-Italic.ttf");
-    src: url("../fonts/Muli-Regular.woff");
-    src: url("../fonts/Muli-Semi-BoldItalic.ttf");
+    font-family: "Muli-bold";
+    src: url("../fonts/Muli-Bold.ttf") format("ttf");
+    font-weight: 700;
 } 
 
+@font-face {
+    font-family: "Muli-ExtraBold";
+    src: url("../fonts/Muli-ExtraBold.woff") format("woff");
+}
 
+@font-face {
+    font-family: "Muli-Italic.ttf";
+    src: url("../fonts/Muli-Italic.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: "Muli-Regular";
+    src: url("../fonts/Muli-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Muli-Semi-BoldItalic";
+    src: url("../fonts/Muli-Semi-BoldItalic.ttf") format("ttf");
+}
 
 .header{
     background-image: url("..//img/header_bg_img.png");
@@ -84,7 +98,8 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 }
 .menu__list-item{
     color: white;
-    margin-right: 50px;
+    margin-right: 30px;
+    font-family: "Muli-bold";
 }
 .menu__link{}
 
@@ -96,7 +111,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
     
 }
 .logo__img{
-    
+    transform: translate(-100px, 0px);
 }
 
 .header__right-menu{
@@ -178,13 +193,16 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
     height: 70px;
     background-color: #0aa566;
     border-radius: 35px;
-    font-family: Muli;
     font-size: 24px;
     line-height: 40px;
     font-weight: 800;
     letter-spacing: -0.02em;
     color: #ffffff;
     position: relative;
+    font-family: "Muli-bold";
+    padding-left: -70px;
+    text-align: left;
+    padding-left: 35px;
 }
 
 .header__btn::after {
@@ -202,6 +220,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
     text-transform: uppercase;
     letter-spacing: 0.02em;
     color: white;
+    font-family: "Muli-bold";
 } 
 
 .smoothies{
@@ -223,15 +242,14 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 }
 
 .smoothies__text{
-    font-family: Muli;
+    font-family: "Muli";
     font-size: 18px;
     line-height: 35px;
     font-weight: 400;
     color: #1e1e1e;
     text-align: center;
     max-width: 943px;
-    margin-top: 55px;
-   
+    margin: 50px auto 70px auto
 }
 
 .smoothies__content{
@@ -315,7 +333,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
     font-weight: 800;
     letter-spacing: -0.02em;
     color: #ffffff;  
-    max-width: 590px;
+    max-width: 595px;
 }
 
 .about__title::after{
@@ -350,12 +368,17 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
     left: 5px;
 }
 
+.about__item-bold{
+    opacity: 0.5;
+    font-weight: 300;
+}
+
 .about__link{
     width: 360px;
     height: 55px;
     border: 2px solid #f8b231;
     border-radius: 30px;
-    font-family: Muli;
+    font-family: "Muli-regular";
     font-size: 21px;
     line-height: 22px;
     font-weight: 800;
@@ -487,7 +510,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 }
 
 .story__text {
-    font-family: Muli;
+    font-family: "Muli-bold";
     font-size: 18px;
     line-height: 35px;
     font-weight: 400;
@@ -704,7 +727,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 }
 
 .blog__excerpt{
-    font-family: Muli;
+    font-family: "Muli-Semi-BoldItalic";
     font-size: 18px;
     line-height: 35px;
     font-weight: 400;
