@@ -39,28 +39,33 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 
 @font-face {
     font-family: "Muli-bold";
-    src: url("../fonts/Muli-Bold.ttf") format("ttf");
+    src: url("../fonts/Muli-Bold.ttf") format("true type");
     font-weight: 700;
+    font-display: swap;
 } 
 
 @font-face {
     font-family: "Muli-ExtraBold";
     src: url("../fonts/Muli-ExtraBold.woff") format("woff");
+    font-display: swap;
 }
 
 @font-face {
     font-family: "Muli-Italic.ttf";
-    src: url("../fonts/Muli-Italic.ttf") format("ttf");
+    src: url("../fonts/Muli-Italic.ttf") format("true type");
+    font-display: swap;
 }
 
 @font-face {
     font-family: "Muli-Regular";
     src: url("../fonts/Muli-Regular.woff") format("woff");
+    font-display: swap;
 }
 
 @font-face {
     font-family: "Muli-Semi-BoldItalic";
-    src: url("../fonts/Muli-Semi-BoldItalic.ttf") format("ttf");
+    src: url("../fonts/Muli-Semi-BoldItalic.ttf") format("true type");
+    font-display: swap;
 }
 
 .header{
